@@ -1,0 +1,28 @@
+{
+  "name": "experiment",
+  "version": "1.0.0",
+  "description": "初回コミット",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://kanno@github.com/Kanno95/experiment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kanno95/experiment/issues"
+  },
+  "homepage": "https://github.com/Kanno95/experiment#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-replace": "^1.1.3",
+    "postcss-reporter": "^7.0.5"
+  }
+}
