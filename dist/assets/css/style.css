@@ -100,7 +100,7 @@ header {
 .menu__box .menu__item {
   font-size: 1.44rem;
   border-bottom: dotted 1px #000000;
-  width: 300px;
+  width: 100%;
 }
 .menu__box .menu__money {
   font-size: 1.44rem;
@@ -263,3 +263,13 @@ header {
 /*
 * JavaScript widget
 * ------------------------------------------------------------------------ */
+@media (min-width: 1000px) {
+  .menu__k {
+    display: flex;
+    margin-left: 156px;
+    margin-right: 156px;
+  }
+  .menu__k .menu__wrapper {
+    width: 50%;
+  }
+}
