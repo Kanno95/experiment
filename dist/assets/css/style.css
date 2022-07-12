@@ -266,10 +266,14 @@ header {
 @media (min-width: 1000px) {
   .menu__k {
     display: flex;
+    margin-top: 90px;
     margin-left: 156px;
     margin-right: 156px;
   }
   .menu__k .menu__wrapper {
     width: 50%;
+  }
+  .menu__k .btn {
+    border-right: solid 1px #000000;
   }
 }
