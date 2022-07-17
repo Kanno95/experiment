@@ -179,15 +179,14 @@ header {
 .location__gm {
     width: 343px;
     height: 407px;
-    margin-top: 25px;
-    margin-left: 16px;
-    margin-right: 16px;
+    padding-top: 25px;
+    margin: 0 auto;
     background-color: #DEDEDE;
 }
 .location__address-text {
-    margin-top: 22px;
-    margin-left: 16px;
-    margin-left: 16px;
+    padding-top: 22px;
+    width: 343px;
+    margin: 0 auto;
     p {
         font-size: 1.44rem;
         line-height: 30px;
@@ -280,6 +279,22 @@ header {
 * ------------------------------------------------------------------------ */
 // JavaScript 関連モジュール
 @media (min-width: 1000px) {
+    .header__menu {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .menu__til {
+        height: 300px;
+        font-size: 7.2rem;
+    }
+    .menu__heading {
+        font-size: 4rem;
+        h3 {
+            border-bottom: solid 6px #E03131;
+            width: 170px;
+            margin: 0 auto;
+        }
+    }
     .menu__k {
         display: flex;
         margin-top: 90px;
@@ -287,9 +302,57 @@ header {
         margin-right: 156px;
         .menu__wrapper {
             width: 50%;
+            padding-left: 49.5px;
         }
         .btn {
             border-right: solid 1px #000000;
+            padding-right: 49.5px;
         }
+    }
+    .about__til {
+        height: 300px;
+        font-size: 7.2rem;
+    }
+    .about__heading {
+        font-size: 4rem;
+        h3 {
+            border-bottom: solid 6px #E03131;
+            width: 170px;
+            margin: 0 auto;
+        }
+    }
+    .about__box {
+        display: flex;
+        margin-left: 176px;
+        margin-right: 176px;
+        .bbn {
+            margin-right: 61px;
+        }
+    }
+    .about__button {
+        margin-top: 55px;
+    }
+    .location__til {
+        height: 300px;
+        font-size: 7.2rem;
+    }
+    .location__heading {
+        font-size: 4rem;
+        padding-top: 83px;
+        h3 {
+            border-bottom: solid 6px #E03131;
+            width: 260px;
+            margin: 0 auto;
+        }
+    }
+    .location__address-text {
+        width: 969px;
+        margin: 0 auto;
+    }
+    .location__gm {
+        padding-top: 73px;
+        margin: 0 auto;
+        width: 969px;
+        height: 400px;
     }
 }
