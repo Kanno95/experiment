@@ -181,7 +181,10 @@ header {
     height: 407px;
     padding-top: 25px;
     margin: 0 auto;
-    background-color: #DEDEDE;
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
 }
 .location__address-text {
     padding-top: 22px;
@@ -286,6 +289,9 @@ header {
     .menu__til {
         height: 300px;
         font-size: 7.2rem;
+        h2 {
+            padding-top: 113px;
+        }
     }
     .menu__heading {
         font-size: 4rem;
@@ -293,6 +299,7 @@ header {
             border-bottom: solid 6px #E03131;
             width: 170px;
             margin: 0 auto;
+            padding-bottom: 17px;
         }
     }
     .menu__k {
@@ -312,6 +319,9 @@ header {
     .about__til {
         height: 300px;
         font-size: 7.2rem;
+        h2 {
+            padding-top: 113px;
+        }
     }
     .about__heading {
         font-size: 4rem;
@@ -319,6 +329,7 @@ header {
             border-bottom: solid 6px #E03131;
             width: 170px;
             margin: 0 auto;
+            padding-bottom: 17px;
         }
     }
     .about__box {
@@ -335,6 +346,9 @@ header {
     .location__til {
         height: 300px;
         font-size: 7.2rem;
+        h2 {
+            padding-top: 113px;
+        }
     }
     .location__heading {
         font-size: 4rem;
@@ -343,6 +357,7 @@ header {
             border-bottom: solid 6px #E03131;
             width: 260px;
             margin: 0 auto;
+            padding-bottom: 17px;
         }
     }
     .location__address-text {
@@ -354,5 +369,9 @@ header {
         margin: 0 auto;
         width: 969px;
         height: 400px;
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
     }
 }
