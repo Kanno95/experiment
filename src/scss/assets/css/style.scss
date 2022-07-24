@@ -12,15 +12,7 @@ body {
 /*
 * normalize.css
 * ------------------------------------------------------------------------ */
-// normarize.css の内容をコピペ。コメントアウトはすべて削除
-// ※なぜコピペかというと normarize.css のアプデが来た時に更新が楽だから
-// ※もちろん、下位バージョンブラウザとの互換性を熟知するのであれば（無理ゲー）
-// normalize.css と Override をひとまとめに書けるからコード量も減ってベスト
-/*
-* Override
-* ------------------------------------------------------------------------ */
 // normarize.css の内容からさらにリセットしたいスタイル
-// ※margin:0 とか padding:0 など
 /*
 * Layout
 * ======================================================================== */
@@ -33,6 +25,8 @@ header {
 /*
 * Header
 * ------------------------------------------------------------------------ */
+
+
 // ヘッダーのスタイル
 .header__menu {
     padding-top: 24px;
@@ -56,11 +50,6 @@ header {
     margin-top: 253px;
     color: #FFFFFF;
 }
-/*
-/*
-* Breadcrumb
-* ------------------------------------------------------------------------ */
-// パンくずのスタイル
 /*
 * Headline
 * ------------------------------------------------------------------------ */
@@ -91,8 +80,7 @@ header {
     padding-top: 33px;
     h3 {
         border-bottom: solid 6px #E03131;
-        width: 88px;
-        margin: 0 auto;
+        display: inline-block;
     }
 }
 .menu__box {
@@ -129,8 +117,7 @@ header {
     padding-top: 33px;
     h3 {
         border-bottom: solid 6px #E03131;
-        width: 88px;
-        margin: 0 auto;
+        display: inline-block;
     }
 }
 .about__box {
@@ -148,9 +135,31 @@ header {
     margin-top: 24px;
     width: 160px;
     margin: 0 auto;
+    position: relative;
     p {
         padding: 19px 35px;
-        border: solid 1px #E03131;
+    }
+    &::before {
+        position :absolute;
+        content: '';
+        top : 0;
+        left: 0;
+        width: 32px;
+        height: 25px;
+        border-top: 1px solid #E03131;
+        border-left: 1px solid #E03131;
+        transform: rotate(0deg);
+    }
+    &::after {
+        position :absolute;
+        content: '';
+        top : 30.39px;
+        left: 127px;
+        width: 32px;
+        height: 25px;
+        border-bottom: 1px solid #E03131;
+        border-right: 1px solid #E03131;
+        transform: rotate(0deg);
     }
 }
 .location__til {
@@ -172,8 +181,8 @@ header {
     padding-top: 33px;
     h3 {
         border-bottom: solid 6px #E03131;
-        width: 130px;
         margin: 0 auto;
+        display: inline-block;
     }
 }
 .location__gm {
@@ -297,8 +306,6 @@ header {
         font-size: 4rem;
         h3 {
             border-bottom: solid 6px #E03131;
-            width: 170px;
-            margin: 0 auto;
             padding-bottom: 17px;
         }
     }
@@ -327,8 +334,6 @@ header {
         font-size: 4rem;
         h3 {
             border-bottom: solid 6px #E03131;
-            width: 170px;
-            margin: 0 auto;
             padding-bottom: 17px;
         }
     }
@@ -353,11 +358,13 @@ header {
     .location__heading {
         font-size: 4rem;
         padding-top: 83px;
+        text-align: center;
+        display: block;
+
         h3 {
             border-bottom: solid 6px #E03131;
-            width: 260px;
-            margin: 0 auto;
             padding-bottom: 17px;
+            display: inline-block;
         }
     }
     .location__address-text {

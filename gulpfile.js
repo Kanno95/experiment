@@ -32,4 +32,9 @@ const scssCompile = (done) => {
     done();
     };
 
-exports.start = gulp.series(scssCompile);
+const watch = (docs) => {
+    gulp.watch(srcPath.scss, gulp.parallel(scssCompile));
+    docs();
+};
+
+exports.start = gulp.series(scssCompile, watch);

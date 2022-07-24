@@ -14,9 +14,6 @@ body {
 * normalize.css
 * ------------------------------------------------------------------------ */
 /*
-* Override
-* ------------------------------------------------------------------------ */
-/*
 * Layout
 * ======================================================================== */
 header {
@@ -53,10 +50,6 @@ header {
 }
 
 /*
-/*
-* Breadcrumb
-* ------------------------------------------------------------------------ */
-/*
 * Headline
 * ------------------------------------------------------------------------ */
 /*
@@ -86,8 +79,7 @@ header {
 }
 .menu__heading h3 {
   border-bottom: solid 6px #E03131;
-  width: 88px;
-  margin: 0 auto;
+  display: inline-block;
 }
 
 .menu__box {
@@ -127,8 +119,7 @@ header {
 }
 .about__heading h3 {
   border-bottom: solid 6px #E03131;
-  width: 88px;
-  margin: 0 auto;
+  display: inline-block;
 }
 
 .about__box {
@@ -147,10 +138,32 @@ header {
   margin-top: 24px;
   width: 160px;
   margin: 0 auto;
+  position: relative;
 }
 .about__button p {
   padding: 19px 35px;
-  border: solid 1px #E03131;
+}
+.about__button::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 32px;
+  height: 25px;
+  border-top: 1px solid #E03131;
+  border-left: 1px solid #E03131;
+  transform: rotate(0deg);
+}
+.about__button::after {
+  position: absolute;
+  content: "";
+  top: 30.39px;
+  left: 127px;
+  width: 32px;
+  height: 25px;
+  border-bottom: 1px solid #E03131;
+  border-right: 1px solid #E03131;
+  transform: rotate(0deg);
 }
 
 .location__til {
@@ -174,8 +187,8 @@ header {
 }
 .location__heading h3 {
   border-bottom: solid 6px #E03131;
-  width: 130px;
   margin: 0 auto;
+  display: inline-block;
 }
 
 .location__gm {
@@ -282,8 +295,6 @@ header {
   }
   .menu__heading h3 {
     border-bottom: solid 6px #E03131;
-    width: 170px;
-    margin: 0 auto;
     padding-bottom: 17px;
   }
   .menu__k {
@@ -312,8 +323,6 @@ header {
   }
   .about__heading h3 {
     border-bottom: solid 6px #E03131;
-    width: 170px;
-    margin: 0 auto;
     padding-bottom: 17px;
   }
   .about__box {
@@ -337,12 +346,13 @@ header {
   .location__heading {
     font-size: 4rem;
     padding-top: 83px;
+    text-align: center;
+    display: block;
   }
   .location__heading h3 {
     border-bottom: solid 6px #E03131;
-    width: 260px;
-    margin: 0 auto;
     padding-bottom: 17px;
+    display: inline-block;
   }
   .location__address-text {
     width: 969px;
