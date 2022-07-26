@@ -47,6 +47,67 @@ body {
         color: #FFFFFF;
     }
 }
+.til {
+        background-color: #DEDEDE;
+        font-size: 3.2rem;
+        font-weight: bold;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 10px;
+        height: 94px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.subtil {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 33px;
+    &__text {
+        display: inline-block;
+        border-bottom: solid 6px #E03131;
+    }
+}
+.coffee__menu {
+    margin-left: 20px;
+    margin-right: 20px;
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 32px;
+        &__list {
+            width: 100%;
+            border-bottom: dotted 1px #000000;
+        }
+    }
+}
+.food__menu {
+    margin-left: 20px;
+    margin-right: 20px;
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 32px;
+        &__list {
+            width: 100%;
+            border-bottom: dotted 1px #000000;
+        }
+    }
+}
+.other__menu {
+    margin-left: 20px;
+    margin-right: 20px;
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 32px;
+        &__list {
+            width: 100%;
+            border-bottom: dotted 1px #000000;
+        }
+    }
+}
 /*
 * Header
 * ------------------------------------------------------------------------ */
