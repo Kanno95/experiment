@@ -209,3 +209,19 @@ body {
   margin-top: 151px;
   margin-bottom: 12px;
 }
+
+@media (min-width: 1000px) {
+  .header__til {
+    font-size: 11.5rem;
+  }
+  .til {
+    height: 300px;
+    font-size: 7.2rem;
+  }
+  .sub-til {
+    font-size: 4rem;
+  }
+  .sub-til__text {
+    padding-bottom: 17px;
+  }
+}
