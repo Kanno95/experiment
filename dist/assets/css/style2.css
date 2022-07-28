@@ -31,6 +31,9 @@ body {
 .header__menu__list__item {
   margin-right: 27px;
 }
+.header__menu__list__item:last-child {
+  margin-right: 0;
+}
 .header__til {
   font-size: 8.45rem;
   font-family: Arial;
@@ -198,4 +201,11 @@ body {
   margin-right: 16px;
   font-size: 1.44rem;
   line-height: 30px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: 151px;
+  margin-bottom: 12px;
 }
