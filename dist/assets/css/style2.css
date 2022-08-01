@@ -224,18 +224,4 @@ body {
   .sub-til__text {
     padding-bottom: 17px;
   }
-  .menu {
-    display: flex;
-    margin-top: 90px;
-    margin-left: 156px;
-    margin-right: 156px;
-  }
-  .menu .coffee__menu {
-    width: 50%;
-    border-right: solid 1px #000000;
-    padding-right: 49.5px;
-  }
-  .menu__box {
-    width: 50%;
-  }
 }
