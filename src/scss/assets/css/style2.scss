@@ -129,6 +129,7 @@ body {
     &__box {
         margin-top: 20px;
         font-size: 1.44rem;
+        line-height: 2;
         &:first-child {
             margin-top: 0;
         }
@@ -180,7 +181,7 @@ body {
     margin-left: 16px;
     margin-right: 16px;
     font-size: 1.44rem;
-    line-height: 30px;
+    line-height: 2;
 }
 .footer {
     text-align: center;
@@ -198,11 +199,26 @@ body {
         height: 300px;
         font-size: 7.2rem;
     }
+    .menu__til {
+        margin-top: 20px;
+    }
+    .about__til {
+        margin-top: 149.5px;
+    }
+    .location__til {
+        margin-top: 150px;
+    }
     .sub-til {
         font-size: 4rem;
         &__text {
             padding-bottom: 17px;
         }
+    }
+    .about__sub-til {
+        margin-top: 83px;
+    }
+    .location__sub-til {
+        margin-top: 83px;
     }
     .menu {
         display: flex;
@@ -217,5 +233,42 @@ body {
         &__box {
             width: 50%;
         }
+    }
+    .coffee__about {
+        margin-top: 89px;
+        margin-left: 176px;
+        margin-right: 176px;
+        display: flex;
+        flex-wrap: wrap;
+        &__box {
+            width: 50%;
+            margin-top: 0;
+            &__text1 {
+                margin-right: 61px;
+            }
+            &__text2 {
+                margin-right: 61px;
+            }
+            &__text3 {
+                margin-top: 46px;
+                margin-right: 61px;
+            }
+            &__text4 {
+                margin-top: 46px;
+                margin-right: 61px;
+            }
+        }
+    }
+    .about__button {
+        margin-top: 55px;
+    }
+    .map {
+        margin-top: 73px;
+        margin-left: 156px;
+        margin-right: 156px;
+    }
+    .address {
+        margin-left: 156px;
+        margin-right: 156px;
     }
 }
