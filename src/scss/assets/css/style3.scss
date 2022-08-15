@@ -9,8 +9,9 @@
  */
 
 html {
-  line-height: 1.15; /* 1 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+line-height: 1.15; /* 1 */
+-webkit-text-size-adjust: 100%; /* 2 */
+font-size: 62.5%;
 }
 
 /* Sections
@@ -22,6 +23,8 @@ html {
 
 body {
 margin: 0;
+font-size: 1.6em;
+width: 100%;
 }
 
 /**
@@ -37,9 +40,16 @@ display: block;
 * `article` contexts in Chrome, Firefox, and Safari.
 */
 
-h1 {
-font-size: 2em;
-margin: 0.67em 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-size: inherit;
+line-height: inherit;
+font-weight: inherit;
+margin: 0;
 }
 
 /* Grouping content
@@ -350,30 +360,24 @@ display: none;
 * {
     margin: 0;
     padding: 0;
+    list-style: none;
 } 
 
-html {
-    font-size: 62.5%;
-}
-body {
-    font-size: 1.6em;
-    width: 100%;
-}
-.header {
-    height: 600px;
-    width: auto;
-    background-color: #DEDEDE;
+
+.mv {
+    &__inner {
+        position: relative;
+    }
     &__list {
+        position: absolute;
+        top: 0;
+        left: 109px;
         display: flex;
-        justify-content: flex-end;
         padding-top: 24px;
-        padding-right: 45px;
         font-size: 1.44rem;
         font-weight: bold;
         color: #FFFFFF;
-        font-size: 1.44rem;
         font-weight: bold;
-        font-family:'メイリオ', 'Meiryo', sans-serif;
             &__item {
                 margin-right: 27px;
                 &:last-child {
@@ -381,24 +385,28 @@ body {
                     }
                 }
     }
-    &__til {
+    &__title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
         font-size: 8.45rem;
-        font-family: Arial;
         font-weight: bold;
-        text-align: center;
-        margin-top: 211px;
         color: #FFFFFF;
     }
-    .main {
-        &__inner {
-            padding: 0 15px;
-            &--type2 {
-                padding: 0;
-            }
+}
+.main {
+    &__inner {
+        padding: 0 15px;
+        &--type2 {
+            padding: 0;
         }
     }
 }
 .secodmv {
+    margin-top: 10px;
     &__inner {
         position: relative;
     }
@@ -412,5 +420,8 @@ body {
         transform: translate(-50%, -50%);
         -webkit-transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%);
+        font-size: 3.2rem;
+        color: #FFFFFF;
+        font-weight: bold;
     }
 }
