@@ -323,13 +323,7 @@ template {
   list-style: none;
 }
 
-.mv__inner {
-  position: relative;
-}
-.mv__list {
-  position: absolute;
-  top: 0;
-  left: 109px;
+.header__linkList {
   display: flex;
   padding-top: 24px;
   font-size: 1.44rem;
@@ -337,22 +331,11 @@ template {
   color: #FFFFFF;
   font-weight: bold;
 }
-.mv__list__item {
+.header__linkList__item {
   margin-right: 27px;
 }
-.mv__list__item:last-child {
+.header__linkList__item:last-child {
   margin-right: 0;
-}
-.mv__title {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  font-size: 8.45rem;
-  font-weight: bold;
-  color: #FFFFFF;
 }
 
 .main__inner {

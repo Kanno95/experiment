@@ -364,14 +364,8 @@ display: none;
 } 
 
 
-.mv {
-    &__inner {
-        position: relative;
-    }
-    &__list {
-        position: absolute;
-        top: 0;
-        left: 109px;
+.header {
+    &__linkList {
         display: flex;
         padding-top: 24px;
         font-size: 1.44rem;
@@ -384,17 +378,6 @@ display: none;
                     margin-right: 0;
                     }
                 }
-    }
-    &__title {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -webkit-transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        font-size: 8.45rem;
-        font-weight: bold;
-        color: #FFFFFF;
     }
 }
 .main {
