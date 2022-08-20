@@ -325,10 +325,12 @@ template {
 
 .header__linkList {
   display: flex;
+  justify-content: end;
   padding-top: 24px;
+  padding-right: 45px;
   font-size: 1.44rem;
   font-weight: bold;
-  color: #FFFFFF;
+  color: #000000;
   font-weight: bold;
 }
 .header__linkList__item {
@@ -336,6 +338,21 @@ template {
 }
 .header__linkList__item:last-child {
   margin-right: 0;
+}
+
+.mv__inner {
+  position: relative;
+}
+.mv__title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 8.45rem;
+  color: #FFFFFF;
+  font-weight: bold;
 }
 
 .main__inner {
@@ -364,4 +381,14 @@ template {
   font-size: 3.2rem;
   color: #FFFFFF;
   font-weight: bold;
+}
+
+.subtitle {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+.subtitle__text {
+  display: inline-block;
+  border-bottom: solid 6px #E03131;
 }
