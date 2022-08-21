@@ -407,7 +407,12 @@ display: none;
     }
 }
 .secodmv {
-    margin-top: 10px;
+    &--type2 {
+        margin-top: 10px;
+    } 
+    &--type3 {
+        margin-top: 112px;
+    }
     &__inner {
         position: relative;
     }
@@ -430,8 +435,25 @@ display: none;
     font-size: 2rem;
     text-align: center;
     font-weight: bold;
+    &--type2 {
+        margin-top: 33px;
+    }
+    &--type3 {
+        margin-top: 41px;
+    }
     &__text {
         display: inline-block;
         border-bottom: solid 6px #E03131;
+    }
+}
+.menu {
+    margin-top: 32px;
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        &__item {
+            width: 100%;
+            border-bottom: dotted 1px #000000;
+        }
     }
 }

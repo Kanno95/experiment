@@ -362,8 +362,11 @@ template {
   padding: 0;
 }
 
-.secodmv {
+.secodmv--type2 {
   margin-top: 10px;
+}
+.secodmv--type3 {
+  margin-top: 112px;
 }
 .secodmv__inner {
   position: relative;
@@ -388,7 +391,25 @@ template {
   text-align: center;
   font-weight: bold;
 }
+.subtitle--type2 {
+  margin-top: 33px;
+}
+.subtitle--type3 {
+  margin-top: 41px;
+}
 .subtitle__text {
   display: inline-block;
   border-bottom: solid 6px #E03131;
+}
+
+.menu {
+  margin-top: 32px;
+}
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+}
+.menu__list__item {
+  width: 100%;
+  border-bottom: dotted 1px #000000;
 }
