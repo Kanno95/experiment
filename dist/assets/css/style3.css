@@ -324,13 +324,15 @@ template {
 }
 
 .header__linkList {
+  position: absolute;
+  top: 0;
+  right: 45px;
+  z-index: 1;
   display: flex;
-  justify-content: end;
   padding-top: 24px;
-  padding-right: 45px;
   font-size: 1.44rem;
   font-weight: bold;
-  color: #000000;
+  color: #FFFFFF;
   font-weight: bold;
 }
 .header__linkList__item {
@@ -367,6 +369,9 @@ template {
 }
 .secodmv--type3 {
   margin-top: 112px;
+}
+.secodmv--type4 {
+  margin-top: 80px;
 }
 .secodmv__inner {
   position: relative;
@@ -412,4 +417,48 @@ template {
 .menu__list__item {
   width: 100%;
   border-bottom: dotted 1px #000000;
+}
+
+.about {
+  font-size: 1.44rem;
+  line-height: 2;
+  margin-top: 20px;
+}
+.about:first-child {
+  margin-top: 0;
+}
+.about--type1 {
+  margin-top: 34px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 44px;
+  font-size: 1.44rem;
+}
+.button__text {
+  padding: 20px 45px;
+  position: relative;
+}
+.button__text::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-top: solid 1px #E03131;
+  border-left: solid 1px #E03131;
+  width: 32px;
+  height: 25px;
+}
+.button__text::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-bottom: solid 1px #E03131;
+  border-right: solid 1px #E03131;
+  width: 32px;
+  height: 25px;
 }
