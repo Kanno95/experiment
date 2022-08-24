@@ -504,3 +504,37 @@ display: none;
         }
     }
 }
+.map {
+    margin-top: 25px;
+    height: 400px;
+    &__g-map {
+        width: 100%;
+        height: 100%;
+    }
+}
+.description {
+    margin-top: 22px;
+    font-size: 1.44rem;
+    &__address {
+        line-height: 1.69;
+    }
+    &__date {
+        margin-top: 15px;
+    }
+    &__time {
+        margin-top: 15px;
+    }
+    &__tel {
+        margin-top: 15px;
+        &--type2 {
+            text-decoration: none;
+            color: #000000;
+        }
+    }
+}
+.footer {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 151px;
+    margin-bottom: 12px;
+}
