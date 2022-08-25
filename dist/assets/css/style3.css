@@ -345,6 +345,10 @@ template {
 .mv__inner {
   position: relative;
 }
+.mv__img {
+  width: 100%;
+  height: 600px;
+}
 .mv__title {
   position: absolute;
   top: 50%;
@@ -498,4 +502,16 @@ template {
   text-align: center;
   margin-top: 151px;
   margin-bottom: 12px;
+}
+
+@media (min-width: 1000px) {
+  .mv__title {
+    font-size: 11.5rem;
+  }
+  .main__inner {
+    padding: 0 156px;
+  }
+  .main__inner--type2 {
+    padding: 0;
+  }
 }
