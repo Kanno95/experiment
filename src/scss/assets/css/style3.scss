@@ -450,6 +450,9 @@ display: none;
     &--type3 {
         margin-top: 41px;
     }
+    &--type4 {
+        margin-top: 41px;
+    }
     &__text {
         display: inline-block;
         border-bottom: solid 6px #E03131;
@@ -554,6 +557,44 @@ display: none;
             &--type2 {
                 padding: 0;
             }
+        }
+    }
+    .secodmv {
+        &--type2 {
+            margin-top: 20px;
+        }
+        &--type3 {
+            margin-top: 149.5px;
+        }
+        &__text {
+            font-size: 7.2rem;
+        }
+    }
+    .menubox {
+        display: flex;
+        margin-top: 90px;
+        &__inner {
+            width: 50%;
+            padding-left: 50px;
+            padding-right: 50px;
+            &--type2 {
+                border-right: solid 1px #000000;
+            }
+        }
+    }
+    .subtitle {
+        font-size: 4rem;
+        &--type2 {
+            margin-top: 0px;
+        }
+        &--type3 {
+            margin-top: 0px;
+        }
+        &--type4 {
+            margin-top: 96.5px;
+        }
+        &__text {
+            padding-bottom: 17px;
         }
     }
 }

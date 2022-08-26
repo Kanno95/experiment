@@ -406,6 +406,9 @@ template {
 .subtitle--type3 {
   margin-top: 41px;
 }
+.subtitle--type4 {
+  margin-top: 41px;
+}
 .subtitle__text {
   display: inline-block;
   border-bottom: solid 6px #E03131;
@@ -513,5 +516,41 @@ template {
   }
   .main__inner--type2 {
     padding: 0;
+  }
+  .secodmv--type2 {
+    margin-top: 20px;
+  }
+  .secodmv--type3 {
+    margin-top: 149.5px;
+  }
+  .secodmv__text {
+    font-size: 7.2rem;
+  }
+  .menubox {
+    display: flex;
+    margin-top: 90px;
+  }
+  .menubox__inner {
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .menubox__inner--type2 {
+    border-right: solid 1px #000000;
+  }
+  .subtitle {
+    font-size: 4rem;
+  }
+  .subtitle--type2 {
+    margin-top: 0px;
+  }
+  .subtitle--type3 {
+    margin-top: 0px;
+  }
+  .subtitle--type4 {
+    margin-top: 96.5px;
+  }
+  .subtitle__text {
+    padding-bottom: 17px;
   }
 }
