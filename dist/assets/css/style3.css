@@ -409,6 +409,12 @@ template {
 .subtitle--type4 {
   margin-top: 41px;
 }
+.subtitle--type5 {
+  margin-top: 33px;
+}
+.subtitle--type6 {
+  margin-top: 33px;
+}
 .subtitle__text {
   display: inline-block;
   border-bottom: solid 6px #E03131;
@@ -426,16 +432,17 @@ template {
   border-bottom: dotted 1px #000000;
 }
 
+.aboutbox {
+  margin-top: 34px;
+}
+
 .about {
   font-size: 1.44rem;
   line-height: 2;
   margin-top: 20px;
 }
-.about:first-child {
+.about--type2 {
   margin-top: 0;
-}
-.about--type1 {
-  margin-top: 34px;
 }
 
 .button {
@@ -523,6 +530,9 @@ template {
   .secodmv--type3 {
     margin-top: 149.5px;
   }
+  .secodmv--type4 {
+    margin-top: 150px;
+  }
   .secodmv__text {
     font-size: 7.2rem;
   }
@@ -550,7 +560,43 @@ template {
   .subtitle--type4 {
     margin-top: 96.5px;
   }
+  .subtitle--type5 {
+    margin-top: 83px;
+  }
+  .subtitle--type6 {
+    margin-top: 83px;
+  }
   .subtitle__text {
     padding-bottom: 17px;
+  }
+  .aboutbox {
+    display: flex;
+    margin-top: 89px;
+  }
+  .aboutbox__inner--type2 {
+    margin-left: 20px;
+    margin-right: 30px;
+  }
+  .aboutbox__inner--type3 {
+    margin-left: 30px;
+    margin-right: 20px;
+  }
+  .about {
+    margin-top: 46px;
+  }
+  .about--type2 {
+    margin-top: 0;
+  }
+  .about--type3 {
+    margin-top: 0;
+  }
+  .button {
+    margin-top: 55px;
+  }
+  .map {
+    margin-top: 73px;
+  }
+  .footer {
+    margin-top: 193px;
   }
 }
